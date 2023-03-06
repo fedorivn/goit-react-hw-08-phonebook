@@ -1,6 +1,13 @@
 import styled from '@emotion/styled';
 
+export const AppContainer= styled.div`
+   
+    margin-left:32px;
+    margin-right:32px;
+`
+
 export const Container=styled.div`
+margin-top:20px;
 padding-top: 20px;
 padding-bottom: 20px;
 display:flex;
