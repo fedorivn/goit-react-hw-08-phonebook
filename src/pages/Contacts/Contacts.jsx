@@ -20,7 +20,7 @@ export const Contacts = () => {
   const isAuth = useSelector(selectIsAuth);
   useEffect(() => {
     dispatch(fetchContacts());
-  }, []);
+  }, [ dispatch]);
 
   if (isAuth) {
     return (
